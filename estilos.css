@@ -40,13 +40,20 @@ img {
 .info-general {
   margin: 2% auto;
   width: 1200px;
-  height: 1100px;
+  height: 1200px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   border: 2px solid rgb(202, 153, 231);
+  place-items: center;
 }
-.PERFILPROFESIONAL {
+.PERFILPROFESIONAL .FORMACIÓN .CURSOS {
+  width: 900px;
+  height: 300px;
+}
+.COMPETENCIAS .AREAS .HABILIDADES {
+  width: 300px;
+  height: 900px;
 }
