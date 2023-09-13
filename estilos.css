@@ -1,0 +1,49 @@
+.nombre {
+  color: rgb(92, 19, 160);
+  font-family: "Righteous", cursive;
+  font-size: 45px;
+}
+.profesión {
+  font-family: "Signika", sans-serif;
+  font-size: 20px;
+  color: rgb(142, 46, 197);
+}
+.subtitulos {
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+  color: rgb(175, 81, 230);
+}
+.normal {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.info-contact {
+  margin: 2% auto;
+  width: 1300px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid rgb(202, 153, 231);
+}
+.información {
+}
+img {
+  width: 285px;
+  height: 250px;
+}
+.info-general {
+  margin: 2% auto;
+  width: 1300px;
+  height: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid rgb(202, 153, 231);
+}
