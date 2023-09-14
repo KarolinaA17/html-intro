@@ -19,13 +19,18 @@
   font-family: "M PLUS Rounded 1c", sans-serif;
   text-align: justify;
 }
+.normal2 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
 .container {
   display: flex;
   flex-direction: column;
 }
 .info-contact {
   margin: 2% auto;
-  width: 1200px;
+  width: 89%;
   height: 350px;
   display: flex;
   flex-direction: row;
@@ -33,27 +38,56 @@
   justify-content: space-around;
   border: 2px solid rgb(202, 153, 231);
 }
+.información,
+.contacto,
+.Foto {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-wrap: break-word;
+}
+
 img {
   width: 380px;
   height: 320px;
 }
+.contacto {
+  align-items: center;
+}
 .info-general {
-  margin: 2% auto;
-  width: 1200px;
-  height: 1200px;
+  margin: 1% auto;
+  width: 90%;
+  height: 1550px;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-around;
-  border: 2px solid rgb(202, 153, 231);
-  place-items: center;
 }
-.PERFILPROFESIONAL .FORMACIÓN .CURSOS {
-  width: 900px;
+.PERFILPROFESIONAL,
+.FORMACIÓN,
+.CURSOS {
+  padding: 25px 25px;
+  width: 55%;
+  border: 2px solid rgb(202, 153, 231);
+}
+.COMPETENCIAS,
+.AREAS,
+.HABILIDADES {
+  padding: 25px 25px;
+  width: 35%;
+  border: 2px solid rgb(202, 153, 231);
+}
+.PERFILPROFESIONAL,
+.COMPETENCIAS {
+  height: 320px;
+}
+.FORMACIÓN,
+.AREAS {
   height: 300px;
 }
-.COMPETENCIAS .AREAS .HABILIDADES {
-  width: 300px;
-  height: 900px;
+.CURSOS,
+.HABILIDADES {
+  height: 530px;
 }
